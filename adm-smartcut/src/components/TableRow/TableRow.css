@@ -1,0 +1,23 @@
+.row-aberto {
+    background-color: #717171; /* Cor para linhas com status 'aberto' */
+  }
+  
+  .row-fechado {
+    background-color: #808080; /* Cor para linhas com status 'fechado' */
+  }
+  
+  .row-fechado button {
+    display: none; /* Esconde botões em linhas fechadas */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+  }
+  

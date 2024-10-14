@@ -1,0 +1,76 @@
+/* src/pages/Administrador/dashboard.css */
+
+body {
+    background-color: #121212; /* Fundo escuro para o body */
+    margin: 0; /* Remove margens padrão do body */
+}
+
+.dashboard {
+    padding: 20px; /* Espaçamento da página */
+    max-width: 800px; /* Largura máxima do painel */
+    margin: 50px auto; /* Centraliza o painel */
+    background-color: #383838; /* Fundo escuro do painel */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: white; /* Texto em branco */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra do painel */
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    font-size: 28px; /* Tamanho do título */
+}
+
+h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+p {
+    text-align: center; /* Centraliza o parágrafo */
+    margin-bottom: 30px; /* Espaçamento abaixo do parágrafo */
+    font-size: 18px; /* Tamanho do texto */
+}
+
+.stats {
+    display: flex; /* Flexbox para alinhamento */
+    justify-content: space-around; /* Espaçamento igual entre itens */
+    margin-bottom: 30px; /* Espaçamento abaixo das estatísticas */
+}
+
+.stat-item {
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 20%; /* Largura dos itens */
+    background-color: #444; /* Cor de fundo dos itens */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra dos itens */
+    margin-left: 1rem;
+}
+
+.stat-aberto {
+    background-color: #28a745; /* Verde */
+    color: white; /* Cor do texto */
+}
+
+.stat-concluido {
+    background-color: #007bff; /* Azul */
+    color: white; /* Cor do texto */
+}
+
+.stat-cancelado {
+    background-color: #dc3545; /* Vermelho */
+    color: white; /* Cor do texto */
+}
+
+
+.stat-item h3 {
+    margin: 0; /* Remove margem do título */
+    font-size: 20px; /* Tamanho do título da estatística */
+}
+
+.stat-item p {
+    font-size: 24px; /* Tamanho do número da estatística */
+    font-weight: bold; /* Deixa o número em negrito */
+    color: #e0e0e0; /* Cor do número em verde para destaque */
+}

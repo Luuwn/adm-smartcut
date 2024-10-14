@@ -1,0 +1,123 @@
+/* src/pages/Administrador/admAgendamentos.css */
+.adm-agendamentos-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 5vh auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: #1a1a1a;
+    color: white;
+}
+ 
+.adm-agendamentos-add-btn {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adm-agendamentos-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.adm-agendamentos-list-info{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.adm-agendamentos-list-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.adm-agendamentos-item {
+    background-color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adm-agendamentos-item.agendamento-fechado {
+    background-color: #555;
+}
+
+.adm-agendamentos-update-btn, .adm-agendamentos-cancel-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adm-agendamentos-concluir-btn {
+    background-color: #28a745;
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adm-agendamentos-cancelar-btn {
+    background-color: #dc3545;
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
+
+.adm-agendamentos-modal {
+    padding: 20px;
+    max-width: 550px;
+    margin: 30vh auto;
+    background-color: #383838; /* Fundo do modal */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.adm-agendamentos-model-selects{
+    display: flex;
+    gap: 1rem;
+}
+
+.adm-agendamentos-modal input, .adm-agendamentos-modal select {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: 1px solid #555;
+    color: white;
+    border-radius: 5px;
+}
+
+.adm-agendamentos-save-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adm-agendamentos-close-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #9d9d9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

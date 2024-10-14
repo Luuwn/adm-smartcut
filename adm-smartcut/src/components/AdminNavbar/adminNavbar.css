@@ -1,0 +1,80 @@
+/* src/components/AdminNavbar/AdminNavbar.css */
+
+.admin-navbar {
+    background-color: #1a1a1a; /* Cor de fundo escura */
+    height: 100px;
+    padding: 15px 30px; /* Espaçamento interno */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destacar a navbar */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Mantém a navbar no topo da página ao rolar */
+}
+
+.admin-navbar-logo h2 {
+    color: #e0e0e0; /* Cor verde para o título da navbar */
+    margin: 0;
+    font-size: 24px;
+}
+
+.admin-navbar ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espaçamento entre itens da navbar */
+    align-items: center;
+}
+
+.admin-navbar li {
+    margin: 0; /* Remove a margem padrão */
+}
+
+.admin-navbar a {
+    color: #e0e0e0; /* Cor branca para os links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-size: 20px;
+    padding: 10px 15px; /* Espaçamento interno para tornar clicável */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+}
+
+.admin-navbar a:hover {
+    background-color: #007bff; /* Cor de fundo verde ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+.admin-navbar button {
+    background-color: #f44336; /* Cor de fundo do botão de logout */
+    color: white;
+    border: none;
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+.admin-navbar button:hover {
+    background-color: #d32f2f; /* Cor do botão de logout ao passar o mouse */
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .admin-navbar {
+        flex-direction: column; /* Alinha a navbar verticalmente em telas menores */
+        align-items: flex-start;
+    }
+
+    .admin-navbar ul {
+        flex-direction: column;
+        gap: 10px; /* Reduz o espaçamento entre os itens */
+        width: 100%;
+    }
+
+    .admin-navbar a, .admin-navbar button {
+        width: 100%; /* Faz os links ocuparem toda a largura em telas pequenas */
+        text-align: left;
+    }
+}

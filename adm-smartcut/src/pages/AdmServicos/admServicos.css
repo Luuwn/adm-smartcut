@@ -1,0 +1,109 @@
+.adm-servicos-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 5vh auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.adm-servicos-add-btn {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.adm-servicos-add-btn:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+}
+
+.adm-servicos-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.adm-servicos-item {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #383838;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.adm-servicos-item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.adm-servicos-delete-btn,
+.adm-servicos-update-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.adm-servicos-update-btn {
+    background-color: #007bff; /* Azul */
+}
+
+.adm-servicos-delete-btn:hover {
+    background-color: #c82333; /* Vermelho mais escuro */
+}
+
+.adm-servicos-update-btn:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+}
+
+.adm-servicos-modal {
+    padding: 20px;
+    max-width: 550px;
+    margin: 30vh auto;
+    background-color: #383838; /* Fundo do modal */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.adm-servicos-input {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333333; /* Fundo escuro */
+    color: white; /* Texto branco */
+    border: 1px solid #007bff; /* Borda azul */
+    border-radius: 5px;
+}
+
+.adm-servicos-input::placeholder {
+    color: #bbb; /* Cor do texto do placeholder */
+}
+
+.adm-servicos-save-btn, 
+.adm-servicos-close-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.adm-servicos-save-btn:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+}
+
+.adm-servicos-close-btn:hover {
+    background-color: #d32f2f; /* Vermelho */
+}
